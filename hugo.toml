@@ -1,0 +1,4 @@
+baseURL = 'https://bazgrola.szczyp.com'
+languageCode = 'pl-pl'
+title = 'Bazgroła'
+theme = "beautifulhugo"
