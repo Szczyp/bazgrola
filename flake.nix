@@ -8,7 +8,7 @@
       devShell.x86_64-linux =
         let pkgs = nixpkgs.legacyPackages.x86_64-linux;
         in pkgs.mkShellNoCC {
-          packages = with pkgs; [ hugo ];
+          packages = with pkgs; [ hugo go ];
 
           env = { };
 

@@ -1,4 +1,32 @@
 baseURL = 'https://bazgrola.szczyp.com'
 languageCode = 'pl-pl'
 title = 'Bazgroła'
-theme = "beautifulhugo"
+
+[params]
+  colorScheme = 'blowfish'
+  enableSearch = false
+
+[params.homepage]
+  layout = 'page'
+  showRecent = true
+  showRecentItems = 9
+  showMoreLink = true
+  cardView = true
+
+[params.article]
+  showWordCount = false
+  showReadingTime = false
+
+[params.list]
+  showHero = true
+  showSummary = true
+  showCards = true
+  cardView = true
+
+[params.footer]
+  showCopyright = false
+  showThemeAttribution = false
+
+[[module.imports]]
+  path = 'github.com/nunocoracao/blowfish/v2'
+
