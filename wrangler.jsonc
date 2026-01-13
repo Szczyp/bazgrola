@@ -2,8 +2,8 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "compatibility_date": "2026-01-05",
   "name": "bazgrola",
-  "workers_dev" = true,
-  "preview_urls" = false,
+  "workers_dev": true,
+  "preview_urls": false,
   "assets": {
     "directory": "public"
   }
