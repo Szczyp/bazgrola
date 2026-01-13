@@ -1,11 +1,8 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "compatibility_date": "2026-01-05",
+  "name": "bazgrola",
   "assets": {
-	  "directory": "public"
-  },
-  "route": {
-    "pattern": "bazgrola.szczyp.com",
-    "custom_domain": true
+    "directory": "public"
   }
 }
